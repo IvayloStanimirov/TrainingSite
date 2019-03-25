@@ -1,0 +1,27 @@
+@import url('leyout.css');
+@import url('post.css');
+@import url('navigation.css');
+@import url('sidebar.css');
+.site-header{
+
+    border-bottom: 4px solid black;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+
+}
+
+.site-header a{
+
+    text-decoration: none;
+    color: cornflowerblue;
+    outline: none;
+    
+
+}
+.site-footer{
+    border-top: 4px solid black;
+    padding-top: 1rem;
+    padding-top: 2rem;
+}
+

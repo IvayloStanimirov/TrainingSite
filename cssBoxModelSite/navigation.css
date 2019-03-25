@@ -1,0 +1,31 @@
+
+.site-header nav{  
+    display: inline-block;
+    padding: 3px;
+    vertical-align: top;
+    text-align: right;
+}
+.site-header nav ul{
+
+}
+.site-header nav li{
+
+display: inline-block;
+
+}
+
+.site-header nav a{
+
+display: block;
+padding: 0.5rem 1rem;
+border: 1px solid #999;
+}
+
+.site-header nav a:focus,
+.site-header nav a:hover{
+
+    border-color: black;
+    background-color: black;
+    color: white;
+
+}

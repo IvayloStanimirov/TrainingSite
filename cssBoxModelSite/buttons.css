@@ -1,0 +1,51 @@
+/* 
+For a tag use class button button
+for button tag no need to use nothing
+for input tag use class button 
+*/
+.button,
+input[type='button'],
+button{
+    display: inline-block;
+    padding: 1em;
+    border: 2px solid black;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 10px;
+    color: black;
+    background-color: transparent;
+    border-radius: 4em;
+    cursor: pointer;
+}
+/* Filled Buttons 
+For a tag use class button filled
+for button tag use class filled
+for input tag use class button filled
+*/
+.button.filled,
+button.filled{
+    background-color: black;
+    color: wheat;
+}
+/* Hoover 
+buttons that are not filled*/
+.button:hover,
+button:hover{
+border-color: greenyellow;
+color: green;
+background-color: white
+}
+/*  Hoover 
+for filled buttons */
+.button.filled:hover,
+button.filled:hover{
+    border-color: greenyellow;
+    color: white;
+    background-color: green;
+    transform: translateX(2)
+    
+    
+}
+.button{
+transition: all 0.1s
+}

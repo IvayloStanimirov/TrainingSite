@@ -1,0 +1,10 @@
+.main-sidebar ul {
+    padding: 1.5rem;
+    padding-right: 0rem;
+    padding-top: 0rem;
+    list-style: none;
+}
+
+.main-sidebar > section{
+    padding-bottom: 1rem;
+}
